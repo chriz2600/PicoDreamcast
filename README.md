@@ -28,7 +28,7 @@ Small adapter board to easily hook up a PicoPSU to the Dreamcast
 
     ![Power connector replacement](https://github.com/chriz2600/PicoDreamcast/raw/master/assets/connector.png)
 
-    [Sketch Up files](https://github.com/chriz2600/PicoDreamcast/tree/master/3dprinted)
+    [SketchUp files](https://github.com/chriz2600/PicoDreamcast/tree/master/3dprinted)
 
 ---
 
