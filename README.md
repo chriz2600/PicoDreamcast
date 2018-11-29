@@ -1,6 +1,6 @@
 # PicoDreamcast
 
-Small adapter board to elegantly hook up a pico psu to the Dreamcast
+Small adapter board to easily hook up a PicoPSU to the Dreamcast
 
 ![PicoDreamcast](https://github.com/chriz2600/PicoDreamcast/raw/master/assets/pico_dreamcast.jpg)
 
