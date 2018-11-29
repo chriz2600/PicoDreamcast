@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pico_psu_mount-rescue)(type Legacy)(uri ${KIPRJMOD}/pico_psu_mount-rescue.lib)(options "")(descr ""))
+)
