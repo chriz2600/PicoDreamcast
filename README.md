@@ -30,6 +30,27 @@ Small adapter board to easily hook up a PicoPSU to the Dreamcast
 
     [SketchUp files](https://github.com/chriz2600/PicoDreamcast/tree/master/3dprinted)
 
+
+##### Reference: [ATX12V Power Supply Design Guide](http://www.ieca-inc.com/images/ATX12V_PSDG2.0_Ratified.pdf)
+
+#### 3.3.2 PS_ON#
+
+PS_ON# is an active-low, TTL-compatible signal that allows a motherboard to remotely
+control the power supply in conjunction with features such as soft on/off, Wake on LAN*,
+or wake-on-modem. When PS_ON# is pulled to TTL low, the power supply should turn on
+the five main DC output rails: +12VDC, +5VDC, +3.3VDC, -5VDC, and -12VDC. When
+PS_ON# is pulled to TTL high or open-circuited, the DC output rails should not deliver
+current and should be held at zero potential with respect to ground. PS_ON# has no effect
+on the +5VSB output, which is always enabled whenever the AC power is present. Table
+14 lists PS_ON# signal characteristics.
+
+The power supply shall provide an internal pull-up to TTL high. The power supply shall
+also provide de-bounce circuitry on PS_ON# to prevent it from oscillating on/off at startup
+when activated by a mechanical switch. The DC output enable circuitry must be SELVcompliant.
+
+The power supply shall not latch into a shutdown state when PS_ON# is driven active by
+pulses between 10ms to 100ms during the decay of the power rails. 
+
 ---
 
 <a href="https://oshpark.com/shared_projects/JLMaqgx3"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
