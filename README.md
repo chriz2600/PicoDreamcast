@@ -2,6 +2,16 @@
 
 Small adapter board to easily hook up a PicoPSU to the Dreamcast
 
+## Update
+
+There was an issue, that the PicoPSU was not turning completely off, when PS_ON# was released, when no load is present on the 12V rail. The fix is to add a resistor (>10k) between 12V and GND.
+
+The updated PCB now includes this resistor.
+
+![PicoDreamcast](https://github.com/chriz2600/PicoDreamcast/raw/master/assets/fix.jpg)
+
+## 
+
 ![PicoDreamcast](https://github.com/chriz2600/PicoDreamcast/raw/master/assets/pico_dreamcast.jpg)
 
 ![PicoDreamcast](https://github.com/chriz2600/PicoDreamcast/raw/master/assets/board.png)
