@@ -6,15 +6,15 @@ Small adapter board to easily hook up a PicoPSU to the Dreamcast
 
 There was an issue, that the PicoPSU was not turning completely off, when PS_ON# was released, when no load is present on the 12V rail. The fix is to add a resistor (>10k) between 12V and GND.
 
-The updated PCB now includes this resistor.
+<img src="https://github.com/chriz2600/PicoDreamcast/raw/master/assets/fix.jpg" width="45%"/>
 
-![PicoDreamcast](https://github.com/chriz2600/PicoDreamcast/raw/master/assets/fix.jpg)
+The updated PCB includes this resistor.
 
 ## 
 
-![PicoDreamcast](https://github.com/chriz2600/PicoDreamcast/raw/master/assets/pico_dreamcast.jpg)
+<img src="https://github.com/chriz2600/PicoDreamcast/raw/master/assets/pico_dreamcast.jpg" width="45%"/>
 
-![PicoDreamcast](https://github.com/chriz2600/PicoDreamcast/raw/master/assets/board.png)
+<img src="https://github.com/chriz2600/PicoDreamcast/raw/master/assets/board.png" width="45%"/>
 
 - **BOM**
 
@@ -62,5 +62,3 @@ The power supply shall not latch into a shutdown state when PS_ON# is driven act
 pulses between 10ms to 100ms during the decay of the power rails. 
 
 ---
-
-<a href="https://oshpark.com/shared_projects/JLMaqgx3"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
